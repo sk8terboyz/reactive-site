@@ -1,0 +1,170 @@
+
+body {
+    margin: 0%;
+    overflow: hidden;
+    background-color: #282828;
+    font-size: 2vw;
+}
+
+h3 {
+    padding-bottom: 5vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 3.5vw;
+    padding-left: 2em;
+    max-width: 100%;
+    color: white;
+}
+
+p {
+    font-size: 2vw;
+    color: white;
+    padding-bottom: 5%;
+}
+
+hr {
+    height: 2px;
+    background-color: red;
+    border: none;
+}
+
+.title_container {
+    background-color: blue;
+    color: white;
+    padding: .25em;
+    padding-left: 4em;
+    max-width: 100%;
+    max-height: 20vh;
+    font-size: 2.5vh;
+}
+
+.sidebar-link_container {
+    background-color: aqua;
+    font-size: 2.5vw;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 10vh;
+    padding-right: 3em;
+    position: absolute;
+    height: 100vh;
+    width: 10vw;
+    max-width: 10%;
+    max-height: 100%;
+    margin-right: 0px;
+}
+
+.content_container {
+    position: relative;
+    left: 30%;
+}
+
+.content_headers {
+    font-size: 3vw;
+    color: white;
+    padding-top: 5%;
+    margin-top: 0;
+}
+
+.school-logo {
+    max-width: 10%;
+    max-height: 10%;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+/* @media (min-width: 400px) {
+    body {
+        background-color: salmon;
+    }
+
+    .title_container {
+        font-size: 1.25rem;
+    }
+
+    .sidebar-link_container {
+        font-size: 1.25rem;
+        padding: 1em;
+        height: 100%;
+    }
+    
+    .content_headers {
+        font-size: 1.25rem;
+        padding-top: 5%;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        left: 5%;
+    }
+}
+ */
+@media (max-width: 800px) {
+
+    .title_container {
+        font-size: 2.5vh;
+    }
+
+    .sidebar-link_container {
+        font-size: 1.5vh;
+        padding-left: 1.5em;
+        padding-right: 2.5em;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .content_headers {
+        font-size: 1.25rem;
+        padding-top: 10%;
+    }
+
+    p {
+        font-size: 1rem;
+        padding-bottom: 10%;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        left: 5%;
+    }
+}
+
+@media (min-width: 1000px) {
+
+    .title_container {
+        font-size: 3vh;
+    }
+
+    .sidebar-link_container {
+        font-size: 2.5vh;
+        padding-left: 1.5em;
+        padding-right: 2.5em;
+        height: 100%;
+        text-align: center;
+    }
+    
+    .content_headers {
+        font-size: 2.25rem;
+    }
+
+    .content_container {
+        left: 20%;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+}
