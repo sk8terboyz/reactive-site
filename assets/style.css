@@ -79,19 +79,20 @@ hr {
     top: 3%;
 }
 
-/* @media (min-width: 400px) {
+@media (max-width: 500px) {
     body {
-        background-color: salmon;
+        background-color: rgb(136, 105, 105);
     }
 
     .title_container {
         font-size: 1.25rem;
+        padding-left: 2em;
     }
 
     .sidebar-link_container {
-        font-size: 1.25rem;
         padding: 1em;
         height: 100%;
+        text-align: center;
     }
     
     .content_headers {
@@ -107,8 +108,13 @@ hr {
         font-size: 1.5rem;
         left: 5%;
     }
+
+    h3 {
+        font-size: 1rem;
+        margin-bottom: 5em;
+    }
 }
- */
+
 /*  
  @media (max-width: 800px) {
      
